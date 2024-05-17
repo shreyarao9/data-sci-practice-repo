@@ -29,7 +29,7 @@ X_test_sorted,y_pred_sorted=zip(*sorted_zip)
 #visualizing the results
 plt.scatter(X_test,y_test,color='blue',label='Actual')
 plt.plot(X_test_sorted,y_pred_sorted,color='red',label='Predicted')
-plt.title('Polynomial Regression (Degree {})'.format())
+plt.title(f'Polynomial Regression (Degree {degree})')
 plt.xlabel('X')
 plt.ylabel('y')
 plt.legend()

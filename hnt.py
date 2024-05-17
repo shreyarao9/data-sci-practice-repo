@@ -5,7 +5,7 @@ print([name,age])
 
 vowlist=[]
 i=0
-while i<5:
+while i<10:
     vov=input('Enter a vowel: ')[0]
     if vov=='a' or vov=='A' or vov=='e' or vov=='E' or vov=='i' or vov=='I' or vov=='o' or vov=='O' or vov=='u' or vov=='U':
         vowlist.append(vov)
